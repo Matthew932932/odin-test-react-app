@@ -6,9 +6,14 @@ import Greeting from "./Greeting.jsx"
 import {Banana,Susageroll,Animallistone,Animallisttwo} from "./Favfoods.jsx"
 import { Rendlist, Rendlisttwo, Rendlistthree, Rendlistifs, Rendands, Rendterns } from './Renderlist.jsx'
 import { TodoList } from './TodoList.jsx'
+import { ButtApp, ButtAppOldWay, ButtPassFuncApp, ButtClckHandwithArg } from './PassDataBtwComps.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
+    <ButtClckHandwithArg />
+    <ButtPassFuncApp />
+    <ButtAppOldWay />
+    <ButtApp />
     <TodoList />
     <Rendands />
     <Rendterns />
